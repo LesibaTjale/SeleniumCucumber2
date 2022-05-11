@@ -20,5 +20,5 @@ phases:
       - mvn clean install
   post_build:
     commands:
-      - echo Build completed on `date`
-      - echo Pushing the Docker image...
+#      - echo Build completed on `date`
+#      - echo Pushing the Docker image...
